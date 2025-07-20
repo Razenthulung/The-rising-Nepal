@@ -1,0 +1,53 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.topmenu li{
+    border-right: 1px solid #999;
+    padding: 0px 10px;
+}
+
+.topmenu li:last-child{
+    border: none;
+}
+.bg-body-tertiary{
+    background: #A9E0A2 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+.nation{
+    border-top: 2px solid #A9E0A2;
+    border-radius: 5px;
+}
+
+.title{
+    position: relative;
+    display: inline;
+}
+
+.title::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: red;
+    left: 0;
+    top: 30px;
+}
+
+.content{
+    position: relative;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    border-bottom: 1px solid #999;
+}
